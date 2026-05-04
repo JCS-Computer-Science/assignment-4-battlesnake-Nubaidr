@@ -18,9 +18,9 @@ app.use(express.json());
 const config = {
     apiversion: "1",
     author: "retep", // TODO: Your Battlesnake Username
-    color: "#15ff00", // TODO: Choose color
-    head: "nr-rocket", // TODO: Choose head, see https://play.battlesnake.com/customizations/ for options unlocked in your account
-    tail: "replit-notmark", // TODO: Choose tail, see https://play.battlesnake.com/customizations/ for options unlocked in your account
+    color: "#00b7ff", // TODO: Choose color
+    head: "shades", // TODO: Choose head, see https://play.battlesnake.com/customizations/ for options unlocked in your account
+    tail: "block-bum", // TODO: Choose tail, see https://play.battlesnake.com/customizations/ for options unlocked in your account
 };
 
 
@@ -62,7 +62,7 @@ app.post("/end", (req, res) => {
 
 
 const host = "0.0.0.0";
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 
 
 app.listen(port, host, () => {
